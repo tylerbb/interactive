@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	    <title>sick ambient page</title>
+	    <meta charset="utf-8" />
+
+	    <style>
+
+	    	body {
+			  overflow: hidden;
+			  margin:0px;
+			}
+
+	    	.container {
+	    		margin-top:0;
+	    		height:100vh;
+	    		width:100vw;
+	    		animation-name:dawn;
+	    		animation-duration:5s;
+	    		animation-delay:.5s;
+	    		animation-iteration-count:infinite;
+	    		animation-direction:alternate;
+	    	}
+
+	    	@keyframes dawn {
+	    		0% {
+	    			background-color: pink;
+	    		}
+
+	    		100% {
+	    			background-color: cyan;
+	    		}
+	    	}
+
+	    	.ball1 {
+	    		background-color:green;
+	    		border-radius:50%;
+	    		height:50vw;
+	    		width:50vw;
+	    		position:absolute;
+	    		left:10vw;
+	    		animation-name: move1;
+	    		animation-duration:5s;
+	    		animation-delay:.5s;
+	    		animation-timing-function: ease-in-out;
+				animation-iteration-count:infinite;
+				animation-direction:alternate;
+	    	}
+
+	
+
+	    	@keyframes move1 {
+	    		0% {
+	    			top:25vh;
+	    			left:25vw;
+	    			background-color:cyan;
+	    			opacity: 0.8;
+	    		}   		
+	    		100% {
+	    			top:25vh;
+	    			left:25vw;
+	    			background-color:pink;
+	    			opacity: 0.8;
+	    		}
+	    	}
+
+
+	    	.ball2 {
+	    		background-color:green;
+	    		border-radius:50%;
+	    		height:5vh;
+	    		width:5vw;
+	    		position:absolute;
+	    		left:10vw;
+	    		animation-name: move2;
+	    		animation-duration:5s;
+	    		animation-delay:.5s;
+	    		animation-timing-function: ease-in-out;
+				animation-iteration-count:infinite;
+				animation-direction:alternate;
+	    	}
+
+	
+
+	    	@keyframes move2 {
+	    		0% {
+	    			top:10vh;
+	    			left:10vw;
+	    			background-color:white;
+	    			opacity: 0.8;
+	    		}
+	    		25% {
+	    			top:10vh;
+	    			left:90vw;
+	    			background-color:white;
+	    			opacity: 0.8;
+	    		}	    		
+	    		50% {
+	    			top:90vh;
+	    			left:90vw;
+	    			background-color:white;
+	    			opacity: 0.8;
+	    		}
+	    		75% {
+	    			top:90vh;
+	    			left:10vw;
+	    			background-color:white;
+	    			opacity: 0.8;
+	    		}
+	    		100% {
+	    			top:10vh;
+	    			left:10vw;
+	    			background-color:white;
+	    			opacity: 0.8;
+	    		}
+	    	}
+
+
+	    	.ball2 {
+	    		background-color:green;
+	    		border-radius:50%;
+	    		height:5vw;
+	    		width:5vw;
+	    		position:absolute;
+	    		left:10vw;
+	    		animation-name: move6;
+	    		animation-duration:5s;
+	    		animation-delay:.5s;
+	    		animation-timing-function: ease-in-out;
+				animation-iteration-count:infinite;
+				animation-direction:alternate;
+	    	}
+
+	
+
+
+
+	    	.ball3 {
+	    		background-color:green;
+	    		border-radius:50%;
+	    		height:5vh;
+	    		width:5vw;
+	    		position:absolute;
+	    		left:10vw;
+	    		animation-name: move7;
+	    		animation-duration:5s;
+	    		animation-delay:.5s;
+	    		animation-timing-function: ease-in-out;
+				animation-iteration-count:infinite;
+				animation-direction:alternate;
+	    	}
+
+	
+
+
+
+
+
+
+
+
+
+	    	
+
+
+	    	.ball4 {
+	    		background-color:green;
+	    		border-radius:50%;
+	    		height:10vh;
+	    		width:10vw;
+	    		position:absolute;
+	    		left:10vw;
+	    		animation-name: move4;
+	    		animation-duration:5s;
+	    		animation-delay:.5s;
+	    		animation-timing-function: ease-in-out;
+				animation-iteration-count:infinite;
+				animation-direction:alternate;
+	    	}
+
+	
+
+	    	@keyframes move4 {
+	    		0% {
+	    			top:10vh;
+	    			left:10vw;
+	    			background-color:black;
+	    			opacity: 0.8;
+	    		}
+	    		25% {
+	    			top:90vh;
+	    			left:10vw;
+	    			background-color:black;
+	    			opacity: 0.8;
+	    		}	    		
+	    		50% {
+	    			top:90vh;
+	    			left:90vw;
+	    			background-color:black;
+	    			opacity: 0.8;
+	    		}
+	    		75% {
+	    			top:10vh;
+	    			left:90vw;
+	    			background-color:black;
+	    			opacity: 0.8;
+	    		}
+	    		100% {
+	    			top:10vh;
+	    			left:10vw;
+	    			background-color:black;
+	    			opacity: 0.8;
+	    		}
+	    	}
+
+
+	    	.ball5 {
+	    		background-color:green;
+	    		border-radius:50%;
+	    		height:10vh;
+	    		width:10vw;
+	    		position:absolute;
+	    		left:10vw;
+	    		animation-name: move5;
+	    		animation-duration:5s;
+	    		animation-delay:.5s;
+	    		animation-timing-function: ease-in-out;
+				animation-iteration-count:infinite;
+				animation-direction:alternate;
+	    	}
+
+	
+
+	    	@keyframes move5 {
+	    		0% {
+	    			top:10vh;
+	    			left:10vw;
+	    			background-color:white;
+	    			opacity: 0.8;
+	    		}
+	    		25% {
+	    			top:10vh;
+	    			left:90vw;
+	    			background-color:white;
+	    			opacity: 0.8;
+	    		}	    		
+	    		50% {
+	    			top:90vh;
+	    			left:90vw;
+	    			background-color:white;
+	    			opacity: 0.8;
+	    		}
+	    		75% {
+	    			top:90vh;
+	    			left:10vw;
+	    			background-color:white;
+	    			opacity: 0.8;
+	    		}
+	    		100% {
+	    			top:10vh;
+	    			left:10vw;
+	    			background-color:white;
+	    			opacity: 0.8;
+	    		}
+	    	}
+
+
+	    	.ball6 {
+	    		background-color:green;
+	    		border-radius:50%;
+	    		height:30vh;
+	    		width:30vw;
+	    		position:absolute;
+	    		left:10vw;
+	    		animation-name: move6;
+	    		animation-duration:5s;
+	    		animation-delay:.5s;
+	    		animation-timing-function: ease-in-out;
+				animation-iteration-count:infinite;
+				animation-direction:alternate;
+	    	}
+
+	
+
+	    	@keyframes move6 {
+	    		0% {
+	    			top:20vh;
+	    			left:20vw;
+	    			background-color:black;
+	    			opacity: 0.8;
+	    		}
+	    		25% {
+	    			top:20vh;
+	    			left:80vw;
+	    			background-color:black;
+	    			opacity: 0.8;
+	    		}	    		
+	    		50% {
+	    			top:80vh;
+	    			left:80vw;
+	    			background-color:black;
+	    			opacity: 0.8;
+	    		}
+	    		75% {
+	    			top:80vh;
+	    			left:20vw;
+	    			background-color:black;
+	    			opacity: 0.8;
+	    		}
+	    		100% {
+	    			top:20vh;
+	    			left:20vw;
+	    			background-color:black;
+	    			opacity: 0.8;
+	    		}
+	    	}
+
+
+	    	.ball7 {
+	    		background-color:green;
+	    		border-radius:50%;
+	    		height:30vh;
+	    		width:30vw;
+	    		position:absolute;
+	    		left:10vw;
+	    		animation-name: move7;
+	    		animation-duration:5s;
+	    		animation-delay:.5s;
+	    		animation-timing-function: ease-in-out;
+				animation-iteration-count:infinite;
+				animation-direction:alternate;
+	    	}
+
+	
+
+	    	@keyframes move7 {
+	    		0% {
+	    			top:20vh;
+	    			left:20vw;
+	    			background-color:white;
+	    			opacity: 0.8;
+	    		}
+	    		25% {
+	    			top:80vh;
+	    			left:20vw;
+	    			background-color:white;
+	    			opacity: 0.8;
+	    		}	    		
+	    		50% {
+	    			top:80vh;
+	    			left:80vw;
+	    			background-color:white;
+	    			opacity: 0.8;
+	    		}
+	    		75% {
+	    			top:20vh;
+	    			left:80vw;
+	    			background-color:white;
+	    			opacity: 0.8;
+	    		}
+	    		100% {
+	    			top:20vh;
+	    			left:20vw;
+	    			background-color:white;
+	    			opacity: 0.8;
+	    		}
+	    	}
+
+	    </style> 
+	</head>
+
+	<body>
+		
+		<div class="container">
+			<div class='ball1'></div>
+
+			<div class='ball4'></div>
+			<div class='ball5'></div>
+			<div class='ball6'></div>
+			<div class='ball7'></div>
+		</div>
+
+	</body>
+</html>
+
+
+
+
+
+
+
